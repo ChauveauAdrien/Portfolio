@@ -1,0 +1,163 @@
+/* font */
+@import url("https://use.typekit.net/ndm2qpl.css");
+
+/* init */
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Futura PT";
+    font-size: 1.5rem;
+    cursor: none;
+}
+
+.cursor {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.none {
+    display: none;
+}
+
+/* header */
+
+.header {
+    height: 100px;
+    width: 100%;
+    /* border-bottom: 1px solid grey; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    height: 100%;
+}
+
+.nav__left {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto 0px;
+}
+.nav__right {
+    font-weight: 500;
+    margin: auto 0px;
+    display: flex;
+    gap: 50px;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* hero section */
+
+.hero__section {
+    padding: 0px 150px;
+    margin: 180px 0px;
+}
+
+.hero__section h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.h1__span {
+    color: #1E2DB6;
+}
+
+.hero__section p {
+    margin-top: 30px;
+    width: 675px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    /* height: auto; */
+    align-items: flex-end;
+}
+
+.btn_l {
+    font-weight: 600;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 30px 40px;
+    height: 100%;
+    align-items: flex-end;
+    cursor: none;
+    
+}
+
+.btn_r {
+    font-weight: 600;
+    /* border: 1px solid black; */
+    background: #1E2DB6;
+    text-decoration: none;
+    color: white;
+    padding: 30px 40px;
+    height: 100%;
+}
+
+.enter-anim {
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: normal;
+    /* opacity: 50%; */
+    /* filter: invert(100%); */
+}
+
+.expand {
+    animation: Anim2 .5s;
+    background: crimson;
+    border: 1px solid crimson;
+}
+@keyframes Anim1 {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(0.7) rotate(190deg);
+    }
+}
+
+@keyframes Anim2 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+        opacity:0;
+    }
+}
+
+
+
+
+/* about */
+
+
+.about__section {
+    background: #555E7D;
+}
