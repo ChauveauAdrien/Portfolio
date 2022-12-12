@@ -1,0 +1,208 @@
+// --------------------------------------------
+// import
+// --------------------------------------------
+@import "../scss/varibles.scss";
+
+
+// --------------------------------------------
+/* init */
+// --------------------------------------------
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    font-size: $s_text;
+}
+
+
+// --------------------------------------------
+/* header */
+// --------------------------------------------
+
+.header {
+    height: 100px;
+    width: 100%;
+    /* border-bottom: 1px solid grey; */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    height: 100%;
+}
+
+.nav__left {
+    font-size: $s_title;
+    font-weight: $w_title;
+    margin: auto 0px;
+}
+.nav__right {
+    font-weight: $w_title;
+    margin: auto 0px;
+    display: flex;
+    gap: 2*$unit;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+// --------------------------------------------
+/* hero section */
+// --------------------------------------------
+
+.hero__section {
+    padding: 0px 150px;
+    margin: 6*$unit 0px 8*$unit;
+
+}
+
+.hero__section h1 {
+    font-size: 5rem;
+    font-weight: $w_title;
+    line-height: 100%;
+}
+
+.h1__span {
+    color: $blue;
+}
+
+.hero__section p {
+    font-family: $font2;
+    margin-top: $unit;
+    width: 675px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: $unit;
+    align-items: flex-end;
+}
+
+.btn_l {
+    font-weight: $w_title;
+    border: 1px solid $black;
+    text-decoration: none;
+    color: $black;
+    background: white;
+    padding: $unit 40px;
+    height: 100%;
+    align-items: flex-end;
+    cursor: none;
+    
+}
+
+.btn_r {
+    font-weight: $w_title;
+    /* border: 1px solid black; */
+    background: $blue;
+    border: 1px solid $blue;
+    text-decoration: none;
+    color: white;
+    padding: $unit 40px;
+    height: 100%;
+}
+
+
+// --------------------------------------------
+// About Me
+// --------------------------------------------
+
+.about__section {
+    background: #555E7D;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6*$unit 20px 8*$unit;
+
+    & h2 {
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 3*$unit;
+        font-weight: $w_title;
+        text-transform: uppercase;
+    }
+
+    &__texte {
+        color: white;
+        width: 900px;
+        font-size: 1.5rem;
+        margin-bottom: 5*$unit;
+    }
+
+    & .pictos {
+        display: flex;
+        justify-content: space-around;
+        gap: 2*$unit;
+
+        & .item__picto {
+            display: flex;
+            background-color: $light-blue;
+            padding: 19px 22px;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5*$unit;
+
+            &__text {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: $w_title;
+
+                & span {
+                    font-size: 2rem;
+                }
+            }
+        }
+        
+    }
+}
+
+
+// --------------------------------------------
+// Projets
+// --------------------------------------------
+
+.project__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6*$unit;
+    
+
+    &__title {
+        font-size: 3rem;
+        margin-bottom: 3*$unit;
+        font-weight: $w_title;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        display: flex;
+        gap: 2*$unit;
+        padding: 2*$unit;
+        border-radius: 5px;
+
+        &__bot__left {
+
+            &__title {
+                font-size: 1.8rem;
+                font-weight: $w_title;
+                color: $blue;
+                margin-bottom: $unit;
+            }
+        }
+    }
+}

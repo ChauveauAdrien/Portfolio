@@ -1,18 +1,18 @@
-/* font */
+/* font
 @import url("https://use.typekit.net/ndm2qpl.css");
 
 /* init */
-*, ::after, ::before {
+/* *, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     font-family: "Futura PT";
     font-size: 1.5rem;
     cursor: none;
-}
+} */
 
 .cursor {
     width: 15px;

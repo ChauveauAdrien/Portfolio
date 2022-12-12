@@ -11,7 +11,7 @@ function visible_cursor() {
     cursor.classList.remove('none')
     document.addEventListener('mousemove', e => {
     cursor.setAttribute('style', 'top:'+(e.pageY)+"px; left:"+(e.pageX)+"px;")
-    console.log(e.pageY);
+    // console.log(e.pageY);
 })
 }
 

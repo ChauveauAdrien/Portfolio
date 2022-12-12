@@ -1,0 +1,169 @@
+@import url("https://use.typekit.net/ndm2qpl.css");
+/* init */
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Futura PT";
+  font-size: 1.5rem;
+}
+
+/* header */
+.header {
+  height: 100px;
+  width: 100%;
+  /* border-bottom: 1px solid grey; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  height: 100%;
+}
+
+.nav__left {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: auto 0px;
+}
+
+.nav__right {
+  font-weight: 600;
+  margin: auto 0px;
+  display: flex;
+  gap: 60px;
+}
+
+.nav__item {
+  text-decoration: none;
+  color: black;
+}
+
+/* hero section */
+.hero__section {
+  padding: 0px 150px;
+  margin: 180px 0px 240px;
+}
+
+.hero__section h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.h1__span {
+  color: #1E2DB6;
+}
+
+.hero__section p {
+  font-family: "Montserrat";
+  margin-top: 30px;
+  width: 675px;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+.btn_l {
+  font-weight: 600;
+  border: 1px solid #0a0b0c;
+  text-decoration: none;
+  color: #0a0b0c;
+  background: white;
+  padding: 30px 40px;
+  height: 100%;
+  align-items: flex-end;
+  cursor: none;
+}
+
+.btn_r {
+  font-weight: 600;
+  /* border: 1px solid black; */
+  background: #1E2DB6;
+  border: 1px solid #1E2DB6;
+  text-decoration: none;
+  color: white;
+  padding: 30px 40px;
+  height: 100%;
+}
+
+.about__section {
+  background: #555E7D;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 180px 20px 240px;
+}
+.about__section h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 90px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.about__section__texte {
+  color: white;
+  width: 900px;
+  font-size: 1.5rem;
+  margin-bottom: 150px;
+}
+.about__section .pictos {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.about__section .pictos .item__picto {
+  display: flex;
+  background-color: #777F9B;
+  padding: 19px 22px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.about__section .pictos .item__picto__text {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.about__section .pictos .item__picto__text span {
+  font-size: 2rem;
+}
+
+.project__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 180px;
+}
+.project__section__title {
+  font-size: 3rem;
+  margin-bottom: 90px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project__section__item {
+  display: flex;
+  gap: 60px;
+  padding: 60px;
+  border-radius: 5px;
+}
+.project__section__item__bot__left__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1E2DB6;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=output.css.map */
