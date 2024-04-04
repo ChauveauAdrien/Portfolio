@@ -1,0 +1,111 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "name" : "PlantoBuro",
+            "banner" : "/Plantoburo/Plantoburo-banner.png",
+            "images": ["/Plantoburo/Plantoburo-2.png", "/Plantoburo/Plantoburo-3.png"],
+            "littleDesc" : "L'objectif était de proposer aux entreprises et aux particuliers des aménagements paysagers d'intérieur pour transformer leurs espaces de travail en lieux Feng Shui où le travail devient agréable. Nous voulions améliorer notre conception d'un site web e-commerce avec certains critères imposés.",
+            "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
+            "logiciels" : " Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila.jpeg"
+                },
+                {
+                    "similaire_id" : 2,
+                    "similaire_name" : "Skip The Use",
+                    "similaire_img" : "/SkipTheUse/Skip-the-use-banner.png"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Skip The Use",
+            "banner" : "/SkipTheUse/Skip-the-use-banner.png",
+            "images": ["/SkipTheUse/Skip-the-use-banner.png"],
+            "littleDesc" : "L'objectif était de proposer aux entreprises et aux particuliers des aménagements paysagers d'intérieur pour transformer leurs espaces de travail en lieux Feng Shui où le travail devient agréable. Nous voulions améliorer notre conception d'un site web e-commerce avec certains critères imposés.",
+            "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
+            "logiciels" : " Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila.jpeg"
+                },
+                {
+                    "similaire_id" : 1,
+                    "similaire_name" : "Plantoburo",
+                    "similaire_img" : "/Plantoburo/Plantoburo-banner.png"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "name" : "Sakila DB",
+            "banner" : "/SakilaDB/Sakila-banner.jpeg",
+            "images": ["/SakilaDB/Sakila-2.png", "/SakilaDB/Sakila-4.png", "/SakilaDB/Sakila-5.png"],
+            "littleDesc" : "Ce projet était initialement un projet d'études dans le but d'apprendre Php/Sql en utilisant la base de donnée Sakila DataBase. J'ai décidé de mon coté de pousser le design graphique de l'application pour améliorer mes compétences en design d'interfaces sur mobile .",
+            "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
+            "logiciels" : " Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila.jpeg"
+                },
+                {
+                    "similaire_id" : 1,
+                    "similaire_name" : "Plantoburo",
+                    "similaire_img" : "/Plantoburo/Plantoburo-banner.png"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "name" : "Haaary",
+            "banner" : "/Haaary/Haaary-banner.png",
+            "images": ["/SkipTheUse/Skip-the-use-banner.png"],
+            "littleDesc" : "L'objectif était de proposer aux entreprises et aux particuliers des aménagements paysagers d'intérieur pour transformer leurs espaces de travail en lieux Feng Shui où le travail devient agréable. Nous voulions améliorer notre conception d'un site web e-commerce avec certains critères imposés.",
+            "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
+            "logiciels" : " Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila.jpeg"
+                },
+                {
+                    "similaire_id" : 1,
+                    "similaire_name" : "Plantoburo",
+                    "similaire_img" : "/Plantoburo/Plantoburo-banner.png"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "name" : "Chimère animale",
+            "banner" : "/Chimere/zebre-bouc.png",
+            "images": ["/Chimere/Chimere-animale.jpeg"],
+            "littleDesc" : "L'objectif était de proposer aux entreprises et aux particuliers des aménagements paysagers d'intérieur pour transformer leurs espaces de travail en lieux Feng Shui où le travail devient agréable. Nous voulions améliorer notre conception d'un site web e-commerce avec certains critères imposés.",
+            "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
+            "logiciels" : " Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila.jpeg"
+                },
+                {
+                    "similaire_id" : 1,
+                    "similaire_name" : "Plantoburo",
+                    "similaire_img" : "/Plantoburo/Plantoburo-banner.png"
+                }
+            ]
+        }
+    ]
+        
+    
+}

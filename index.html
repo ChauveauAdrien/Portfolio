@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrien Chauveau</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo-black.svg" />
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- link js -->
+    <script async src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <!-- 
+    <div class="overlay">
+        <div class="counter">0</div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div> -->
+
+    <header class="header-section">
+      <a href="./index.html" class="logo"
+        ><img src="./assets/img/logo.svg" alt="logo du site"
+      /></a>
+      <nav>
+        <a class="burger-menu">menu</a>
+      </nav>
+    </header>
+    <div class="overlay-menu d-none">
+      <nav class="nav-menu">
+        <a href="./index.html" class="logo"
+          ><img src="./assets/img/logo-black.svg" alt="logo du site"
+        /></a>
+        <a class="burger-menu-o close-btn">fermer</a>
+      </nav>
+      <section class="links-menu-o">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">About Me</a></li>
+          <li><a href="./index.html#id-project">Projects</a></li>
+          <li><a href="./follow.html">Contact</a></li>
+        </ul>
+      </section>
+    </div>
+    <main>
+      <section class="landing-section">
+        <p class="first-name">Adrien</p>
+        <p class="last-name">Chauveau</p>
+        <p class="scroll">scroll</p>
+      </section>
+      <section class="about-section">
+        <h2 class="about-title">About Me</h2>
+        <div class="img"></div>
+        <!-- <img src="./assets/img/IMG_6648.JPG" alt="portrait d'une femme sur fond noir"> -->
+        <div class="about">
+          <p class="about-text">
+            Je suis Graphiste et Concepteur, Designer d'interface. Actuellement
+            étudiant en 3ème année de Bachelor au Havre, j'ai pu suivre des
+            enseignements variés tant dans le design web, que dans le
+            développement !
+          </p>
+        </div>
+      </section>
+      <section class="project-section" id="id-project">
+        <a href="./details.html?id=1" class="categorie">UX UI Design</a>
+        <a href="./details.html?id=4" class="categorie">Motion Design</a>
+        <a href="./details.html?id=5" class="categorie">Graphic Design</a>
+      </section>
+      <section class="contact">
+        <a class="follow" href="mailTo:contact.achauveau@gmail.com">
+          <div class="mail">
+            <div class="mail-icon">
+              <img src="./assets/img/mail.svg" alt="" />
+            </div>
+            <div class="mail-txt">Get in <br />touch</div>
+            <div class="mail-arrow">
+              <img src="./assets/img/arrow.svg" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a class="follow" href="./follow.html">
+          <div class="mail">
+            <div class="mail-icon">
+              <img src="./assets/img/bi_instagram.svg" alt="" />
+            </div>
+            <div class="mail-txt">Follow <br />Me</div>
+            <div class="mail-arrow">
+              <img
+                class="long-arrow"
+                src="./assets/img/long-arrow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <p class="foo-portfolio">[ portfolio ]</p>
+      <p class="foo-music">..... OFF</p>
+      <audio
+        id="audioPlayer"
+        src="./assets/son/Chopin - Prelude in E Minor op 28 no 4.mp3"
+      ></audio>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Me</a></li>
+          <li><a href="#id-project">Projects</a></li>
+          <li><a href="mailto:contact.leaduchemin@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script> 
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+        console.log(e)
+        })
+
+        function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+
+
+        gsap.to(".counter", 0.25, {
+            delay: 3.5,
+            opacity: 0
+        })      
+
+
+        gsap.to(".bar", 1.5, {
+            delay: 3.5,
+            height: 0,
+            stagger: {
+                amount: 0.5,
+            },
+            ease: "power4.inOut",
+        })
+
+    </script> -->
+  </body>
+</html>
