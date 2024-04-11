@@ -96,8 +96,7 @@ fetch('./assets/data/projects.json')
                 content_project.innerHTML += `
                 <style>
                 .hero-section {
-                    background-image: url(./assets/Images${banner});
-                    background-size: cover;
+                    background-image: radial-gradient(#ffffff00, #000000a6), url(./assets/Images${banner});
                 }
                 </style>
                 <section class="hero-section">
@@ -116,6 +115,10 @@ fetch('./assets/data/projects.json')
                 <section class="project">
                     
                     <div class="logiciels">
+                        <h2 class="project-title">Description</h2>
+                        <p class="sm-txt dsc-txt">${desc}</p>
+                    </div>
+                    <div class="logiciels">
                         <h2 class="project-title">Logiciels</h2>
                         <p class="sm-txt">${logiciels}</p>
                     </div>
@@ -133,9 +136,10 @@ fetch('./assets/data/projects.json')
 
                     img.forEach(function(i) {
                         content_img.innerHTML +=
-                    `<div class="gallery-item"><img src="./assets/Images${i}" alt=""></div>`
+                    `<div class="gallery-item" style="background-image: url(../assets/Images${i}"></div>`
 
                     });
+
 
                     similaires.forEach(similaire => {
                         let url = `../assets/Images${similaire.similaire_img}`;
@@ -147,7 +151,6 @@ fetch('./assets/data/projects.json')
                         `
                     <style>
                     .other {
-                        background-color: #f7bb00;
                         background-image: url(${url});
                         background-size: cover;
 
