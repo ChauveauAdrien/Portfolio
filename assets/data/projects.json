@@ -5,7 +5,7 @@
             "name" : "PlantoBuro",
             "banner" : "/Plantoburo/Plantoburo-banner.png",
             "images": ["/Plantoburo/Plantoburo-2.png", "/Plantoburo/Plantoburo-3.png"],
-            "littleDesc" : "L'objectif était de proposer aux entreprises et aux particuliers des aménagements paysagers d'intérieur pour transformer leurs espaces de travail en lieux Feng Shui où le travail devient agréable. Nous voulions améliorer notre conception d'un site web e-commerce avec certains critères imposés.",
+            "littleDesc" : "Dans ce projet, j'ai été chargé de concevoir un site web pour une entreprise fictive spécialisée dans l'aménagement paysager d'intérieur. Leur objectif : créer des espaces de travail inspirants et harmonieux, en accord avec les principes du Feng Shui.",
             "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
             "logiciels" : " Figma - Photoshop",
             "similaires" : [
@@ -26,9 +26,9 @@
             "name" : "Skip The Use",
             "banner" : "/SkipTheUse/Skip-the-use-banner.png",
             "images": ["/SkipTheUse/Skip-the-use-banner.png"],
-            "littleDesc" : "L'objectif était de proposer aux entreprises et aux particuliers des aménagements paysagers d'intérieur pour transformer leurs espaces de travail en lieux Feng Shui où le travail devient agréable. Nous voulions améliorer notre conception d'un site web e-commerce avec certains critères imposés.",
-            "desc" : "Dans ce projet, j'ai travaillé sur la conception d'un site web pour une entreprise fictive d'aménagement paysager d'intérieur. Ce projet m'a permis de développer mes compétences en matière de conception de sites web et de commerce électronique",
-            "logiciels" : " Figma - Photoshop",
+            "littleDesc" : "Dans ce projet, j'ai combiné mes compétences en design et en intégration pour créer une Fan-page dédiée à un groupe de musique. L'objectif était de concevoir un site attrayant tout en respectant les meilleures pratiques en matière d'accessibilité.",
+            "desc" : "Cela faisait quelques jours que la musique NAMELESS WORLD me trotais dans la tête, c'est donc tout naturelement que m'est donné l'envie d'utiliser le groupe Skip The Use pour réaliser cet exercice. Après avoir analysé brièvement l'ambiance générale du groupe, je me suis lancé sur Figma. J'ai ainsi réalisé mes premiers wireframes puis élaboré une maquette finale. Vient ensuite l'étape de l'intégration, je devais être prudent sur l'ensemble des détails d'accessibilité pour respecter au mieux les normes W3C et WCAG comme le contraste des couleurs, la taille des textes, la description des images ou encore une navigation accessible pour les mal et non voyants.",
+            "logiciels" : " Figma - Photoshop - HTML5 - CSS - JS",
             "similaires" : [
                 {
                     "similaire_id" : 3,
