@@ -22,7 +22,7 @@ body{
 
 .header-section {
     position: fixed;
-    z-index: 10;
+    z-index: 4;
     /* background: green; */
     width: 100%;
     display: flex;
@@ -36,7 +36,7 @@ body{
     position: fixed;
     width: 100vw;
     height: 100vh;
-    z-index: 2;
+    z-index: 5;
     display: flex;
     background: white;
     padding: 10px;
@@ -52,6 +52,7 @@ body{
 
 .nav-menu {
     position: fixed;
+    z-index: 10;
     top: 10px;
     width: 100%;
     display: flex;
