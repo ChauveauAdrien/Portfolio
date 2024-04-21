@@ -1,0 +1,214 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "name" : "PlantoBuro",
+            "banner" : "/Plantoburo/Plantoburo-banner.jpg",
+            "images": ["/Plantoburo/Plantoburo-0.jpg", "/Plantoburo/Plantoburo-4.jpg", "/Plantoburo/Plantoburo-2.jpg", "/Plantoburo/Plantoburo-3.jpg"],
+            "video": "",
+            "littleDesc" : "Dans ce projet, j'ai été chargé de concevoir un site web pour une entreprise fictive spécialisée dans l'aménagement paysager d'intérieur. Leur objectif : créer des espaces de travail inspirants et harmonieux, en accord avec les principes du Feng Shui.",
+            "competences" : "Conception Web - UX UI Design",
+            "logiciels" : " Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 2,
+                    "similaire_name" : "Skip The Use",
+                    "similaire_img" : "/SkipTheUse/Skip-the-use-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Skip The Use",
+            "banner" : "/SkipTheUse/Skip-the-use-banner.png",
+            "images": ["/SkipTheUse/Skip-the-use-1.jpg", "/SkipTheUse/Skip-the-use-2.jpg"],
+            "video": "",
+            "littleDesc" : "Dans ce projet, j'ai combiné mes compétences en design et en intégration pour créer une Fan-page dédiée à un groupe de musique. L'objectif était de concevoir un site attrayant tout en respectant les meilleures pratiques en matière d'accessibilité.",
+            "competences" : "UX UI Design - Wireframing - Maquettage - Integration Web - Accessibilité Web",
+            "logiciels" : "Figma",
+            "similaires" : [
+                {
+                    "similaire_id" : 3,
+                    "similaire_name" : "Sakila DB",
+                    "similaire_img" : "/SakilaDB/Sakila-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 1,
+                    "similaire_name" : "Plantoburo",
+                    "similaire_img" : "/Plantoburo/Plantoburo-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "name" : "Sakila DB",
+            "banner" : "/SakilaDB/Sakila-banner.jpeg",
+            "images": ["/SakilaDB/Sakila-2.jpg", "/SakilaDB/Sakila-3.jpg", "/SakilaDB/Sakila-1.jpg"],
+            "video": "",
+            "littleDesc" : "Ce projet était initialement un projet d'études dans le but d'apprendre Php/Sql en utilisant une base de donnée. J'ai décidé de mon coté de pousser le design graphique de l'application pour améliorer mes compétences en design d'interfaces sur mobile.",
+            "competences" : "PHP - SQL - Design d'interfaces - Responsive Web Design",
+            "logiciels" : " MySQL - Figma - Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 2,
+                    "similaire_name" : "Skip The Use",
+                    "similaire_img" : "/SkipTheUse/Skip-the-use-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 1,
+                    "similaire_name" : "Plantoburo",
+                    "similaire_img" : "/Plantoburo/Plantoburo-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "name" : "Viapazon",
+            "banner" : "/Viapazon/viapazon-banner.jpg",
+            "images": [""],
+            "video": "/Viapazon/editeur-document.mp4",
+            "littleDesc" : "Pour ce projet d'alternance, je devais réaliser un Motion Design d'une fonctionnnalité phare de notre application : L'éditeur de document",
+            "competences" : "Storyboarding - Motion design",
+            "logiciels" : "Adobe Illustrator - Adobe After Effect",
+            "similaires" : [
+                {
+                    "similaire_id" : 5,
+                    "similaire_name" : "Haaary",
+                    "similaire_img" : "/Haaary/Haaary-banner-2-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "name" : "Haaary",
+            "banner" : "/Haaary/Haaary-banner-2.jpg",
+            "images": [""],
+            "video": "/Haaary/Haaary-motion.mp4",
+            "littleDesc" : "Réalisation de l'animation du logo Haaary. Ce projet impliquait la conception et la création d'une image de marque. Retrouvez toute sa conception dans la catégorie \"Graphic Design\".",
+            "competences" : "Motion Design - Design Graphique",
+            "logiciels" : "Adobe Illustrator - Adobe After Effect",
+            "similaires" : [
+                {
+                    "similaire_id" : 4,
+                    "similaire_name" : "Viapazon",
+                    "similaire_img" : "/Viapazon/viapazon-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "name" : "Chimère Animale",
+            "banner" : "/Chimere/Chimere-animale-banner.jpg",
+            "images": ["/Chimere/Chimere-animale-banner.jpg"],
+            "video": "",
+            "littleDesc" : "Voici mon premier projet sur Photoshop. Je devais réaliser une composition combinant deux espèces différentes. J'ai décidé de mélanger un Zèbre avec une Chèvre.",
+            "competences" : "Compositing - Créativité - Logiciel Photoshop",
+            "logiciels" : "Adobe Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 9,
+                    "similaire_name" : "Haaary",
+                    "similaire_img" : "/Haaary/Haaary-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 7,
+                    "similaire_name" : "Mix & Fruits",
+                    "similaire_img" : "/Mix-Fruits/mix-fruits-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 8,
+                    "similaire_name" : "Shark",
+                    "similaire_img" : "/Shark/Shark-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 7,
+            "name" : "Mix & Fruits",
+            "banner" : "/Mix-Fruits/mix-fruits-banner.jpg",
+            "images": ["/Mix-Fruits/mix-fruits-banner.jpg"],
+            "video": "",
+            "littleDesc" : "Dans la continuité du projet \"Chimère animale\", je devais réaliser une composition mélangeant deux fruits. J'ai dans un premier temps voulu jouer avec la taille des fruits puis sur leurs formes et leurs textures.",
+            "competences" : "Compositing - Créativité - Logiciel Photoshop",
+            "logiciels" : "Adobe Photoshop",
+            "similaires" : [
+                {
+                    "similaire_id" : 9,
+                    "similaire_name" : "Haaary",
+                    "similaire_img" : "/Haaary/Haaary-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 8,
+                    "similaire_name" : "Shark",
+                    "similaire_img" : "/Shark/Shark-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 6,
+                    "similaire_name" : "Chimère animale",
+                    "similaire_img" : "/Chimere/Chimere-animale-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 8,
+            "name" : "Shark",
+            "banner" : "/Shark/Shark-banner.png",
+            "images": ["/Shark/Shark-01.png", "/Shark/Shark-02.png", "/Shark/Shark-03.png", "/Shark/Shark-04.png"],
+            "video": "",
+            "littleDesc" : "Ce projet à été réalisé dans le contexte de mes études, afin d'apprendre à réaliser une Charte graphique. Je devais recréer le branding d'un start-up de crypto-monnaie en prenant pour exemple l'entreprise Suisse, SwissBorg.",
+            "competences" : "Branding",
+            "logiciels" : "Adobe Illustrator - Adobe Photoshop - Adobe Indesign",
+            "similaires" : [
+                {
+                    "similaire_id" : 9,
+                    "similaire_name" : "Haaary",
+                    "similaire_img" : "/Haaary/Haaary-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 7,
+                    "similaire_name" : "Mix & Fruits",
+                    "similaire_img" : "/Mix-Fruits/mix-fruits-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 6,
+                    "similaire_name" : "Chimère animale",
+                    "similaire_img" : "/Chimere/Chimere-animale-banner-min.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 9,
+            "name" : "Haaary",
+            "banner" : "/Haaary/Haaary-banner.jpg",
+            "images": ["/Haaary/Haaary-01.png", "/Haaary/Haaary-02.png", "/Haaary/Haaary-03.png", "/Haaary/Haaary-04.png", "/Haaary/Haaary-05.png"],
+            "video": "",
+            "littleDesc" : "Ce projet à été réalisé dans le contexte de mes études, je devais effectuer le rebranding d'une solution de formation de langue et ainsi repenser l'identité visuelle de la platforme comme le logo et les éléments graphiques.",
+            "competences" : "Branding - Design Graphique - Conception de logo - Typographie",
+            "logiciels" : "Adobe Illustrator - Adobe Photoshop - Adobe Indesign",
+            "similaires" : [
+                {
+                    "similaire_id" : 8,
+                    "similaire_name" : "Shark",
+                    "similaire_img" : "/Shark/Shark-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 7,
+                    "similaire_name" : "Mix & Fruits",
+                    "similaire_img" : "/Mix-Fruits/mix-fruits-banner-min.jpg"
+                },
+                {
+                    "similaire_id" : 6,
+                    "similaire_name" : "Chimère animale",
+                    "similaire_img" : "/Chimere/Chimere-animale-banner-min.jpg"
+                }
+            ]
+        }
+    ]
+        
+    
+}
