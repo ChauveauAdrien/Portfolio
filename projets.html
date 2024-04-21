@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrien Chauveau</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo-black.svg"/>
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- link js -->
+    <script async src="./assets/js/script.js"></script>
+</head>
+<body>
+<!-- 
+    
+    <div class="overlay">
+        <div class="counter">0</div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+     -->
+    <header class="header-section">
+        <a href="./index.html" class="logo"><img src="./assets/img/logo.svg" alt="logo du site"></a>
+        <nav>
+            <a class="burger-menu">menu</a>
+        </nav>
+    </header>
+    <div class="overlay-menu d-none">
+        <nav class="nav-menu">
+            <a href="./index.html" class="logo"><img src="./assets/img/logo-black.svg" alt="logo du site"></a>
+            <a class="burger-menu-o close-btn">fermer</a>
+        </nav>
+        <section class="links-menu-o">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">About Me</a></li>
+                <li><a href="./projets.html">Projects</a></li>
+                <li><a href="./follow.html">Contact</a></li>
+            </ul>
+        </section>  
+    </div>
+    <main>
+        <section class="hero-section" style="background-image: url(./assets/Projects/SakilaDB/Sakila-banner.jpeg);">
+            <p class="hero-txt">Tous les projets</p>
+        </section>
+        <section class="all">
+            <div class="others">
+                <h2 class="project-title">UX UI Design</h2>
+                <div class="similaires">
+                    <!-- 1 -->
+                    <a href="./details.html?id=1">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Plantoburo/Plantoburo-banner-min.jpg)">
+                            <p>Plantoburo</p>
+                        </div>
+                    </a>
+                    <!-- 2 -->
+                    <a href="./details.html?id=2">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/SkipTheUse/Skip-the-use-banner-min.jpg)">
+                            <p>Skip The Use</p>
+                        </div>
+                    </a>
+                    <!-- 3 -->
+                    <a href="./details.html?id=3">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/SakilaDB/Sakila-banner-min.jpg)">
+                            <p>Sakila DB</p>
+                        </div>
+                    </a>
+                        
+                </div>
+            </div>
+            <div class="others">
+                <h2 class="project-title">Motion Design</h2>
+                <div class="similaires">
+                    <!-- 4 -->
+                    <a href="./details.html?id=4">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Viapazon/viapazon-banner-min.jpg)">
+                            <p>Viapazon</p>
+                        </div>
+                    </a>
+                    <!-- 5 -->
+                    <a href="./details.html?id=5">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Haaary/Haaary-banner-2-min.jpg)">
+                            <p>Haaary</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="others">
+                <h2 class="project-title">Graphic Design</h2>
+                <div class="similaires">
+                    <!-- 6 -->
+                    <a href="./details.html?id=6">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Chimere/Chimere-animale-banner-min.jpg)">
+                            <p>Chimére animale</p>
+                        </div>
+                    </a>
+                    <!-- 7 -->
+                    <a href="./details.html?id=7">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Mix-Fruits/mix-fruits-banner-min.jpg)">
+                            <p>Mix & Fruits</p>
+                        </div>
+                    </a>
+                    <!-- 8 -->
+                    <a href="./details.html?id=8">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Shark/Shark-banner-min.jpg)">
+                            <p>Shark</p>
+                        </div>
+                    </a>
+                    <!-- 9 -->
+                    <a href="./details.html?id=9">
+                        <div class="other" style="background-image: radial-gradient(#ffffff00, #0000001a), url(./assets/Projects/Haaary/Haaary-banner-min.jpg)">
+                            <p>Haaary</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+    <footer>
+        <p class="foo-portfolio">[ portfolio ]</p>
+        <p class="foo-music">..... OFF</p>
+        <audio id="audioPlayer" src="./assets/son/Chopin - Prelude in E Minor op 28 no 4.mp3"></audio>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">About Me</a></li>
+                <li><a href="./projets.html">Projects</a></li>
+                <li><a href="./follow.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+
+
+</html>
